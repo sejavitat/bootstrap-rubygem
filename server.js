@@ -86,5 +86,10 @@ app.get('/VitScore', function(req, res) {
     res.render('pages/VitScore');
 });
 
+// Switch
+app.get('/switch', function(req, res) {
+    res.render('pages/switch');
+});
+
 app.listen(8080);
 console.log('8080 is the port');
