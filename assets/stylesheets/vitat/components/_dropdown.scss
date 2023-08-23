@@ -9,6 +9,10 @@
         i {
             margin-right: $spacing-quarck;
         }
+
+        &.danger {
+            color: $feedback-color-danger-pure;
+        }
     }
 
     hr {
