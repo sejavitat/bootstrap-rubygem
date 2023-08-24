@@ -1,7 +1,5 @@
-// GLOBAL TOKENS
 
-// GLOBAL TOKENS -- LINE HEIGHT
-
+// TOKENS -- LINE HEIGHT
 $line-height-default: 100%;
 $line-height-xs: 115%;
 $line-height-sm: 120%;
@@ -10,8 +8,7 @@ $line-height-lg: 150%;
 $line-height-xl: 170%;
 $line-height-xxl: 200%;
 
-// GLOBAL TOKENS -- FONT SIZE
-
+// TOKENS -- FONT SIZE
 $font-size-nano: 10px;
 $font-size-xxxs: 12px;
 $font-size-xxs: 14px;
@@ -25,8 +22,7 @@ $font-size-xxxl: 48px;
 $font-size-display: 64px;
 $font-size-giant: 80px;
 
-// GLOBAL TOKENS -- BORDER RADIUS
-
+// TOKENS -- BORDER RADIUS
 $border-radius-none: 0px;
 $border-radius-xs: 4px;
 $border-radius-sm: 8px;
@@ -35,30 +31,26 @@ $border-radius-lg: 24px;
 $border-radius-pill: 500px;
 $border-radius-circular: 50%;
 
-// GLOBAL TOKENS -- BORDER WIDTH
-
+// TOKENS -- BORDER WIDTH
 $border-width-hairline: 1px;
 $border-width-thin: 2px;
 $border-width-thick: 4px;
 $border-width-heavy: 8px;
 
-// GLOBAL TOKENS -- OPACITY LEVELS
-
+// TOKENS -- OPACITY LEVELS
 $opacity-level-semiopaque: 0.8;
 $opacity-level-intense: 0.64;
 $opacity-level-medium: 0.32;
 $opacity-level-light: 0.16;
 $opacity-level-semitransparent: 0.08;
 
-// GLOBAL TOKENS -- OPACITY SHADOW
-
+// TOKENS -- OPACITY SHADOW
 $shadow-level-1: 0px 4px 8px rgba(0, 0, 0, 0.08);
 $shadow-level-2: 0px 8px 24px rgba(0, 0, 0, 0.16);
 $shadow-level-3: 0px 16px 32px rgba(0, 0, 0, 0.16);
 $shadow-level-4: 0px 16px 48px rgba(0, 0, 0, 0.24);
 
-// GLOBAL TOKENS -- SIZING
-
+// TOKENS -- SIZING
 $sizing-quarck: 4px;
 $sizing-nano: 8px;
 $sizing-xxxs: 16px;
@@ -73,8 +65,7 @@ $sizing-xxxl: 120px;
 $sizing-huge: 160px;
 $sizing-giant: 200px;
 
-// GLOBAL TOKENS -- SPACING
-
+// TOKENS -- SPACING
 $spacing-quarck: 4px;
 $spacing-nano: 8px;
 $spacing-xxxs: 16px;
@@ -89,80 +80,140 @@ $spacing-xxxl: 120px;
 $spacing-huge: 160px;
 $spacing-giant: 200px;
 
-
-// DESIGN SYSTEM VITAT -- FONT FAMILY
-
-$font-family-highlight: "Livvic", sans-serif;
-$font-family-base: "Livvic", sans-serif;
-
-//DESIGN SYSTEM VITAT -- FONT WEIGHT
-
+//FONT WEIGHT
 $font-weight-bold: 700;
 $font-weight-medium: 600;
 $font-weight-regular: 400;
 
+// FONT FAMILY
+$font-family-highlight: "Livvic", sans-serif;
+$font-family-base: "Livvic", sans-serif;
 
-// DESIGN SYSTEM VITAT - COLORS
 
+
+// COLORS
 :root {
+  --brand-color-primary-light: #ecf7c5;
   --brand-color-primary-pure: #bfe338;
+  --brand-color-primary-pure: #bfe338;
+  --brand-color-primary-medium: #8fae19;
+  --brand-color-primary-dark: #54670f;
+
+  --brand-color-secondary-light: #ede5f7;
   --brand-color-secondary-pure: #5a3b94;
+  --brand-color-secondary-medium: #4e2f8a;
+  --brand-color-secondary-dark: #261e4d;
+
+  --highlight-color-light: #fad9bc;
+  --highlight-color-pure:  #f08223;
+  --highlight-color-medium:  #b55b0c;
+  --highlight-color-dark:  #693507;
+
+  --health-color-primary: #f5a0c5;
+  --health-color-secondary: #ede7c4;
+
+  --well-being-color-primary: #ffee87;
+  --well-being-color-secondary: #a58fc4;
+
+  --neutral-color-low-pure: #002b49;
+  --neutral-color-low-dark: #142028;
+  --neutral-color-low-medium: #374051;
+  --neutral-color-low-light: #5a6072;
+
+  --neutral-color-high-pure: #ffffff;
+  --neutral-color-high-light: #f0f1f5;
+  --neutral-color-high-medium: #d3d6e0;
+  --neutral-color-high-dark: #959aab;
+
+  --feedback-color-warning-light: #fff9cc;
+  --feedback-color-warning-pure: #f2a807;
+  --feedback-color-warning-medium: #bf7500;
+  --feedback-color-warning-dark: #693a00;
+
+  --feedback-color-danger-light: #fde7ea;
+  --feedback-color-danger-pure: #d0434f;
+  --feedback-color-danger-medium: #9d101c;
+  --feedback-color-danger-dark: #540002;
+
+  --feedback-color-success-light: #daf5e8;
+  --feedback-color-success-pure: #138647;
+  --feedback-color-success-medium: #005314;
+  --feedback-color-success-dark: #002500;
+
+  // CUSTOM COLOR BUTTONS
+  --btn-color-primary-text: var(--neutral-color-low-pure);
+  --btn-color-primary-bg: var(--brand-color-primary-pure);
+
+  --btn-color-secondary-text: var(--brand-color-primary-pure);
+  --btn-color-secondary-bg: var(--neutral-color-low-pure);
+
+  --btn-outline-color-primary-text: var(--neutral-color-low-pure);
+  --btn-outline-color-secondary-text: var(--neutral-color-low-pure);
+
+  --btn-link-color-secondary-text: var(--neutral-color-low-pure);
 }
 
-// DESIGN SYSTEM VITAT -- BRAND COLORS
-
-$brand-color-primary-light: #ecf7c5;
+// COLORS -- BRAND COLORS
+$brand-color-primary-light: var(--brand-color-primary-light);
 $brand-color-primary-pure: var(--brand-color-primary-pure);
-$brand-color-primary-medium: #8fae19;
-$brand-color-primary-dark: #54670f;
+$brand-color-primary-medium: var(--brand-color-primary-medium);
+$brand-color-primary-dark: var(--brand-color-primary-dark);
 
-$brand-color-secondary-light: #ede5f7;
+$brand-color-secondary-light: var(--brand-color-secondary-light); 
 $brand-color-secondary-pure: var(--brand-color-secondary-pure); 
-$brand-color-secondary-medium: #4e2f8a;
-$brand-color-secondary-dark: #261e4d;
+$brand-color-secondary-medium: var(--brand-color-secondary-medium); 
+$brand-color-secondary-dark: var(--brand-color-secondary-dark); 
 
-// DESIGN SYSTEM VITAT -- HIGHLIGHT COLORS
+// COLORS -- HIGHLIGHT COLORS
+$highlight-color-light: var(--highlight-color-light);
+$highlight-color-pure: var(--highlight-color-pure);
+$highlight-color-medium: var(--highlight-color-medium);
+$highlight-color-dark: var(--highlight-color-dark);
 
-$highlight-color-light: #fad9bc;
-$highlight-color-pure: #f08223;
-$highlight-color-medium: #b55b0c;
-$highlight-color-dark: #693507;
+// COLORS -- HEALTH COLORS
+$health-color-primary: var(--health-color-primary);
+$health-color-secondary: var(--health-color-secondary);
 
-// DESIGN SYSTEM VITAT -- HEALTH COLORS
+// COLORS -- WELL-BEING COLORS
+$well-being-color-primary: var(--well-being-color-primary);
+$well-being-color-secondary: var(--well-being-color-secondary);
 
-$health-color-primary: #f5a0c5;
-$health-color-secondary: #ede7c4;
+// COLORS -- NEUTRAL COLORS
+$neutral-color-low-pure: var(--neutral-color-low-pure); 
+$neutral-color-low-dark: var(--neutral-color-low-dark); 
+$neutral-color-low-medium: var(--neutral-color-low-medium); 
+$neutral-color-low-light: var(--neutral-color-low-light); 
 
-// DESIGN SYSTEM VITAT -- WELL-BEING COLORS
+$neutral-color-high-pure: var(--neutral-color-high-pure); 
+$neutral-color-high-light: var(--neutral-color-high-light); 
+$neutral-color-high-medium: var(--neutral-color-high-medium); 
+$neutral-color-high-dark: var(--neutral-color-high-dark); 
 
-$well-being-color-primary: #ffee87;
-$well-being-color-secondary: #a58fc4;
+// COLORS -- FEEDBACK COLORS
+$feedback-color-warning-light: var(--feedback-color-warning-light); 
+$feedback-color-warning-pure: var(--feedback-color-warning-pure); 
+$feedback-color-warning-medium: var(--feedback-color-warning-medium); 
+$feedback-color-warning-dark: var(--feedback-color-warning-dark); 
 
-// DESIGN SYSTEM VITAT -- NEUTRAL COLORS
+$feedback-color-danger-light: var(--feedback-color-danger-light); 
+$feedback-color-danger-pure: var(--feedback-color-danger-pure); 
+$feedback-color-danger-medium: var(--feedback-color-danger-medium); 
+$feedback-color-danger-dark: var(--feedback-color-danger-dark); 
 
-$neutral-color-low-pure: #002b49;
-$neutral-color-low-dark: #142028;
-$neutral-color-low-medium: #374051;
-$neutral-color-low-light: #5a6072;
+$feedback-color-success-light: var(--feedback-color-success-light);
+$feedback-color-success-pure: var(--feedback-color-success-pure);
+$feedback-color-success-medium: var(--feedback-color-success-medium);
+$feedback-color-success-dark: var(--feedback-color-success-dark);
 
-$neutral-color-high-pure: #ffffff;
-$neutral-color-high-light: #f0f1f5;
-$neutral-color-high-medium: #d3d6e0;
-$neutral-color-high-dark: #959aab;
 
-// DESIGN SYSTEM VITAT -- FEEDBACK COLORS
+//COLORS -- BUTTONS
+$btn-color-primary-bg: var(--btn-color-primary-bg);
+$btn-color-primary-text: var(--btn-color-primary-text);
 
-$feedback-color-warning-light: #fff9cc;
-$feedback-color-warning-pure: #f2a807;
-$feedback-color-warning-medium: #bf7500;
-$feedback-color-warning-dark: #693a00;
+$btn-color-secondary-bg: var(--btn-color-secondary-bg);
+$btn-color-secondary-text: var(--btn-color-secondary-text);
 
-$feedback-color-danger-light: #fde7ea;
-$feedback-color-danger-pure: #d0434f;
-$feedback-color-danger-medium: #9d101c;
-$feedback-color-danger-dark: #540002;
+$btn-outline-color-primary-text: var(--btn-outline-color-primary-text);
+$btn-outline-color-secondary-text: var(--btn-outline-color-secondary-text);
 
-$feedback-color-success-light: #daf5e8;
-$feedback-color-success-pure: #138647;
-$feedback-color-success-medium: #005314;
-$feedback-color-success-dark: #002500;
+$btn-link-color-secondary-text: var(--btn-link-color-secondary-text);

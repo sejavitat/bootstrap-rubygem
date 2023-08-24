@@ -33,31 +33,33 @@
 
 .btn-primary {
     @extend .btn;
-    color:$neutral-color-low-pure;
-    background:$brand-color-primary-pure;
+    color:$btn-color-primary-text;
+    background:$btn-color-primary-bg;
 
     &:hover {
-        color:$neutral-color-low-pure;
-        background:$brand-color-primary-medium;
+        color:$btn-color-primary-text;
+        background:$btn-color-primary-bg;
+        filter: brightness(80%);
+        transition: $transition-base;
     }
     &-link {
         background: transparent;
-        color: $brand-color-primary-medium;
-        text-decoration: underline;
+        color: $brand-color-primary-pure;
+        text-decoration: none;
 
         &:hover {
-            color: $brand-color-primary-medium;
+            color: $brand-color-primary-pure;
             background-color: $neutral-color-high-light;
         }
     }
     &-outline {
-        border: 2px solid $brand-color-primary-pure;
-        color:$neutral-color-low-pure;
+        border: 2px solid $btn-color-primary-bg;
+        color:$btn-outline-color-primary-text;
         background: transparent;
 
         &:hover {
-            color:$neutral-color-low-pure;
-            border: 2px solid $brand-color-primary-pure;
+            color:$btn-outline-color-primary-text;
+            border: 2px solid $btn-color-primary-bg;
             background-color: $brand-color-primary-light;
         }
 
@@ -66,31 +68,33 @@
 
 .btn-secondary {
     @extend .btn;
-    color:$brand-color-primary-pure;
-    background:$neutral-color-low-pure;
+    color:$btn-color-secondary-text;
+    background:$btn-color-secondary-bg;
 
     &:hover {
-        color:$brand-color-primary-pure;
-        background:$neutral-color-low-dark;
+        color:$btn-color-secondary-text;
+        background:$btn-color-secondary-bg;
+        filter: brightness(80%);
+        transition: $transition-base;
     }
     &-link {
         background: transparent;
-        color: $neutral-color-low-pure;
-        text-decoration: underline;
+        color: $btn-link-color-secondary-text;
+        text-decoration: none;
 
         &:hover {
-            color: $neutral-color-low-pure;
+            color: $btn-link-color-secondary-text;
             background-color: $neutral-color-high-light;
         }
     }
     &-outline {
-        border: 2px solid $neutral-color-low-pure;
-        color:$neutral-color-low-pure;
+        border: 2px solid $btn-color-secondary-bg;
+        color:$btn-outline-color-secondary-text;
         background: transparent;
 
         &:hover {
-            color:$neutral-color-low-pure;
-            border: 2px solid $neutral-color-low-pure;
+            color:$btn-outline-color-secondary-text;
+            border: 2px solid $btn-color-secondary-bg;
             background-color: $neutral-color-high-light;
         }
 
