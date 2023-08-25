@@ -151,6 +151,11 @@ $font-family-base: "Livvic", sans-serif;
   --btn-outline-color-secondary-text: var(--neutral-color-low-pure);
 
   --btn-link-color-secondary-text: var(--neutral-color-low-pure);
+
+  --pill-primary-text: var(--brand-color-primary-dark);
+  --pill-secondary-text: var(--brand-color-secondary-light);
+
+  --color-checkbox-checked: var(--neutral-color-low-pure);
 }
 
 // COLORS -- BRAND COLORS
@@ -217,3 +222,10 @@ $btn-outline-color-primary-text: var(--btn-outline-color-primary-text);
 $btn-outline-color-secondary-text: var(--btn-outline-color-secondary-text);
 
 $btn-link-color-secondary-text: var(--btn-link-color-secondary-text);
+
+
+//COLORS -- PILLS
+$pill-primary-text: var(--pill-primary-text);
+$pill-secondary-text: var(--pill-secondary-text);
+
+$color-checkbox-checked: var(--color-checkbox-checked);

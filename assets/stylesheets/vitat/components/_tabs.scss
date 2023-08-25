@@ -9,10 +9,10 @@
             &.active,
             &:hover {
                 background-color: transparent;
-                color: $brand-color-secondary-pure;
+                color: $neutral-color-low-pure;
                 font-weight: $font-weight-medium;
                 border: none;
-                border-bottom: 2px solid $brand-color-secondary-pure;
+                border-bottom: 2px solid $neutral-color-low-pure;
             }
 
         }
