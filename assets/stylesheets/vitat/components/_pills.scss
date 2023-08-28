@@ -83,7 +83,8 @@
 
     &.pill-primary {
         background-color: $brand-color-primary-pure;
-        color: $brand-color-primary-dark;
+        // color: $brand-color-primary-dark;
+        color: $pill-primary-text;
         border-color: $brand-color-primary-pure;
 
         &-outline {
@@ -95,7 +96,8 @@
 
     &.pill-secondary {
         background-color: $brand-color-secondary-pure;
-        color: $brand-color-secondary-light;
+        // color: $brand-color-secondary-light;
+        color: $pill-secondary-text;
         border-color: $brand-color-secondary-pure;
 
         &-outline {
