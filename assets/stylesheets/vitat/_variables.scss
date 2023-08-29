@@ -140,7 +140,7 @@ $font-family-base: "Livvic", sans-serif;
   --feedback-color-success-medium: #005314;
   --feedback-color-success-dark: #002500;
 
-  // CUSTOM COLOR BUTTONS
+  // CUSTOM COLOR
   --btn-color-primary-text: var(--neutral-color-low-pure);
   --btn-color-primary-bg: var(--brand-color-primary-pure);
 
@@ -156,9 +156,16 @@ $font-family-base: "Livvic", sans-serif;
   --pill-secondary-text: var(--brand-color-secondary-light);
 
   --color-checkbox-checked: var(--neutral-color-low-pure);
+
+  --alert-color-primary-text: var(--brand-color-primary-medium);
+  --alert-color-primary-bg: var(--brand-color-primary-light);
+  --alert-color-primary-border: var(--brand-color-primary-medium);
+  --alert-color-secondary-text: var(--brand-color-secondary-pure);
+  --alert-color-secondary-bg: var(--brand-color-secondary-light);
+  --alert-color-secondary-border: var(--brand-color-secondary-pure);
 }
 
-// COLORS -- BRAND COLORS
+// COLORS -- BRAND COLORSajustes
 $brand-color-primary-light: var(--brand-color-primary-light);
 $brand-color-primary-pure: var(--brand-color-primary-pure);
 $brand-color-primary-medium: var(--brand-color-primary-medium);
@@ -229,3 +236,12 @@ $pill-primary-text: var(--pill-primary-text);
 $pill-secondary-text: var(--pill-secondary-text);
 
 $color-checkbox-checked: var(--color-checkbox-checked);
+
+
+//COLORS -- ALERTS
+$alert-color-primary-text: var(--alert-color-primary-text);
+$alert-color-primary-bg: var(--alert-color-primary-bg);
+$alert-color-primary-border: var(--alert-color-primary-border);
+$alert-color-secondary-text: var(--alert-color-secondary-text);
+$alert-color-secondary-bg: var(--alert-color-secondary-bg);
+$alert-color-secondary-border: var(--alert-color-secondary-border);
