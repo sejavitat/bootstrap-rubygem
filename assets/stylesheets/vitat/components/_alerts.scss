@@ -1,0 +1,20 @@
+.alert {
+
+    &-primary {
+        color: $alert-color-primary-text;
+        background-color: $alert-color-primary-bg;
+        border-color: $alert-color-primary-border;
+    }
+
+    &-secondary {
+        color: $alert-color-secondary-text;
+        background-color: $alert-color-secondary-bg;
+        border-color: $alert-color-secondary-border;
+    }
+    &-neutral-low-pure {
+        color: $neutral-color-low-pure;
+        background-color: $neutral-color-high-medium;
+        border-color: $neutral-color-low-pure;
+    }
+
+}

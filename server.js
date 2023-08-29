@@ -91,5 +91,10 @@ app.get('/switch', function(req, res) {
     res.render('pages/switch');
 });
 
+// Alerts
+app.get('/alerts', function(req, res) {
+    res.render('pages/alerts');
+});
+
 app.listen(8080);
 console.log('8080 is the port');

@@ -1,0 +1,29 @@
+
+//EXEMPLO DE COR PERSONALIZADA DO CLIENTE
+:root {
+    //BRAND
+  --brand-color-primary-pure: red;
+  --brand-color-secondary-pure: red;
+
+  //BUTTONS
+  --btn-color-primary-text: #fff;
+  --btn-color-secondary-text: #fff;
+  --btn-color-secondary-bg: red;
+  --btn-outline-color-primary-text: red;
+  --btn-outline-color-secondary-text: red;
+
+  //PILLS
+  --pill-primary-text: #fff;
+  --pill-secondary-text: #fff;
+
+  //CHECKBOX
+  --color-checkbox-checked:#fff;
+
+  //ALERTS
+  --alert-color-primary-text: #fff;
+  --alert-color-primary-bg: red;
+  --alert-color-primary-border: red;
+  --alert-color-secondary-text: #fff;
+  --alert-color-secondary-bg: red;
+  --alert-color-secondary-border: red;
+}

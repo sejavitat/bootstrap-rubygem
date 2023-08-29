@@ -10,6 +10,17 @@
         
     }
 
+    .form-control, .form-select {
+        border-radius: $border-radius-md;
+        border: $border-width-thin solid $neutral-color-high-medium;
+        height: 56px;
+        color: $neutral-color-low-medium;
+    
+        @media (max-width: 1200px) {
+            height: 48px;
+          }
+    }
+
     span {
         color:$neutral-color-low-light;
         font-size: $font-size-xxs;
@@ -71,15 +82,26 @@
 }
 
 
+*::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: $neutral-color-high-dark !important;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: $neutral-color-high-dark !important;
+    opacity:  1;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: $neutral-color-high-dark !important;
+    opacity:  1;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $neutral-color-high-dark !important;
+}
+*::-ms-input-placeholder { /* Microsoft Edge */
+    color: $neutral-color-high-dark !important;
+}
 
-.form-control, .form-select {
-    border-radius: $border-radius-md;
-    border: $border-width-thin solid $neutral-color-high-medium;
-    height: 56px;
-
-    @media (max-width: 1200px) {
-        height: 48px;
-      }
+*::placeholder { /* Most modern browsers support this now. */
+    color: $neutral-color-high-dark !important;
 }
 
 
