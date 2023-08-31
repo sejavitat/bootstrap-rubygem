@@ -57,6 +57,7 @@
                     display: flex;
                     align-items: center;
                     gap: 10px;
+                    cursor:pointer;
 
                     .user-name {
                         display: flex;
@@ -77,6 +78,8 @@
 
             .notification-menu {
                 .dropdown-toggle {
+                    cursor:pointer;
+                    
                     i {
                         font-size: $font-size-md;
                     }
