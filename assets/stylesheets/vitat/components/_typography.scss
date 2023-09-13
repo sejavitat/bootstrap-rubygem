@@ -121,7 +121,9 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   color: $neutral-color-low-light;
 }
-.pillText {
+//TODO: EXCLUIR A CLASSE PILLTEXT E SUBSTITUIR PELA NOVA PILL-TEXT NOS PROJETOS
+.pillText,
+.pill-text {
   font-family: $font-family-base;
   font-weight: $font-weight-medium;
   font-size: $font-size-xxxs;
