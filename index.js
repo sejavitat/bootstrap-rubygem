@@ -1,6 +1,8 @@
 // load the things we need
-var express = require('express');
-var app = express();
+const express = require("express");
+const app = express();
+app.use(express.json());
+
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -137,5 +139,9 @@ app.get('/counters', function(req, res) {
     });
 });
 
-app.listen(8080);
-console.log('8080 is the port');
+
+//app.listen(8080);
+//console.log('8080 is the port');
+
+const port = process.env.PORT || 8080;
+app.listen(port, () => console.log(`Listening to port ${port}`));
