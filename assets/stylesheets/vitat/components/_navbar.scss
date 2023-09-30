@@ -33,7 +33,7 @@
 }
 
 .navbar-expand-lg .offcanvas {
-    max-width: 250px;
+    width: 250px !important;
     background-color: $neutral-color-high-pure !important;
     box-shadow: $shadow-level-1;
     position: sticky;
@@ -44,6 +44,8 @@
 
     @media (max-width: 992px) {
         position: absolute;
+        top: 0;
+        height: 100vh !important;
     }
 }
 

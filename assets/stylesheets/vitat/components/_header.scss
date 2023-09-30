@@ -2,7 +2,7 @@
     background-color: $neutral-color-high-pure;
     height: 90px;
     box-shadow: $shadow-level-1;
-    padding: $spacing-xxxs 0;
+    padding: $spacing-xxxs $spacing-xxs;
     display: flex;
     align-items: center;
     border-bottom: 1px solid $neutral-color-high-medium;
@@ -10,7 +10,7 @@
     width: 100%;
     z-index: 99;
 
-    .container {
+    > div {
         display: flex;
         justify-content: space-between;
         align-items: center;
