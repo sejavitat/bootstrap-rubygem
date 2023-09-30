@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <%- include('../partials/head'); %>
+    
+    <body class="navbar-expand-lg">
+        <%- include('../partials/header'); %>
+
+        <div class="main d-flex">
+            <%- include('../partials/navbar-aside.ejs'); %>
+
+            <div class="container px-5">
+                <h1 class="heading-1 mt-5 mb-3">Bem-vindos ao <br/>Design System da Vitat! 💚</h1>
+
+                <p>Essa é uma iniciativa da BU de Novos Negócios, aqui você vai encontrar um simples guia de componentes para facilitar a montagem das páginas de aplicações web, contruídos de acordo com o Figma criado pelo time de PD e baseado no Bootstrap. </p>
+                
+
+                <h6 class="heading-6 mt-5">Links úteis</h6>
+                <div class="d-flex gap-2">
+                    <div class="card shadow-1 d-flex align-items-center text-center">
+                        <a href="https://www.figma.com/file/KhgRNE9Rg0BFKLOgKDheAD/%5BDS%5D-Web?type=design&node-id=69%3A1334&mode=design&t=lH8akVGNlZeCuzG0-1" target="new">
+                            <img src="/assets/img/logo-figma.jpg"/>
+                            <p>DS Web</p>
+                        </a>
+                    </div>
+                    <div class="card shadow-1 d-flex align-items-center text-center">
+                        <a href="https://github.com/sejavitat/bootstrap-rubygem" target="new">
+                            <img src="/assets/img/logo-github.jpg"/>
+                            <p>Repositório</p>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="mt-5">Qualquer dúvida ou sugestão, podem procurar por <a href="https://sejavitat.slack.com/team/U05B118JXK5">@Amanda Vieira</a>, <a href="https://sejavitat.slack.com/team/U053BG7M9GS">@Julia Fred</a> ou <a href="https://sejavitat.slack.com/team/U050FC5PVD5">@Lucas Bilk</a>. Estamos em constante evolução! 🚀</p>
+            </div>
+        </div>
+
+        <%- include('../partials/footer'); %>
+    </body>
+</html>

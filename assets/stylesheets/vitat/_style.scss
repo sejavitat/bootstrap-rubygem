@@ -1,0 +1,97 @@
+//FONT LIVVIC
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&display=swap');
+
+//GUIDE VITAT
+@import "variables";
+
+// TYPOGRAPHY
+@import "components/typography";
+
+//HEADER
+@import "components/header";
+
+//NAVBAR
+@import "components/navbar";
+
+//BUTTONS
+@import "components/buttons";
+
+//PILLS
+@import "components/pills";
+
+//CARDS
+@import "components/cards";
+
+//TABS
+@import "components/tabs";
+
+//STEPS
+@import "components/steps";
+
+//FORMS
+@import "components/forms";
+
+//DROPDOWN
+@import "components/dropdown";
+
+//TIMELINE
+@import "components/timeline";
+
+//MODAL
+@import "components/modal";
+
+//SHADOWS
+@import "components/shadows";
+
+//TABLE
+@import "components/table";
+
+//VITSCORE
+@import "components/vitscore";
+
+// LOGIN
+@import "components/login";
+
+// SWITCH
+@import "components/switch";
+
+// ALERTS
+@import "components/alerts";
+
+// COUNTERS
+@import "components/counters";
+
+// COLORS
+@import "components/colors";
+
+// CUSTOM COLORS
+// @import "custom-colors";
+
+
+//SCSS DO PROJETO
+* {
+  font-family: "Livvic", sans-serif;
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $neutral-color-high-light;
+}
+
+body,html {
+  height: 100%;
+}
+
+.main {
+  padding-top: 90px;
+  >.container {
+    overflow: hidden;
+  }
+}
+
+.full-bg-container {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}

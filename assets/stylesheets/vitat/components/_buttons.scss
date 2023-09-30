@@ -1,0 +1,102 @@
+.btn {
+    font-family:$font-family-base;
+    border-radius: $border-radius-pill;
+    border: 1px solid transparent;
+    font-weight: $font-weight-bold;
+    padding: $spacing-xxxs $spacing-xs;
+    font-size: $font-size-xs;
+    text-align: center;
+    line-height: $line-height-sm;
+    cursor:pointer;
+
+    &:hover {
+        border: 1px solid transparent;
+    }
+    &:focus {
+        animation: focus 2s infinite ease-in-out;
+    }
+    &:disabled {
+        background:$neutral-color-high-medium;
+        opacity: $opacity-level-medium;
+        color:$neutral-color-low-pure;
+        border: 1px solid transparent;
+    }
+}
+
+.btn-sm {
+    padding: $spacing-nano $spacing-xs;
+}
+
+.btn-lg {
+    padding: $spacing-xxs $spacing-xs;
+}
+
+.btn-primary {
+    @extend .btn;
+    color:$btn-color-primary-text;
+    background:$btn-color-primary-bg;
+
+    &:hover {
+        color:$btn-color-primary-text;
+        background:$btn-color-primary-bg;
+        filter: brightness(80%);
+        transition: $transition-base;
+    }
+    &-link {
+        background: transparent;
+        color: $brand-color-primary-pure;
+        text-decoration: none;
+
+        &:hover {
+            color: $brand-color-primary-pure;
+            background-color: $neutral-color-high-light;
+        }
+    }
+    &-outline {
+        border: 2px solid $btn-color-primary-bg;
+        color:$btn-outline-color-primary-text;
+        background: transparent;
+
+        &:hover {
+            color:$btn-outline-color-primary-text;
+            border: 2px solid $btn-color-primary-bg;
+            background-color: $brand-color-primary-light;
+        }
+
+    }
+}
+
+.btn-secondary {
+    @extend .btn;
+    color:$btn-color-secondary-text;
+    background:$btn-color-secondary-bg;
+
+    &:hover {
+        color:$btn-color-secondary-text;
+        background:$btn-color-secondary-bg;
+        filter: brightness(80%);
+        transition: $transition-base;
+    }
+    &-link {
+        background: transparent;
+        color: $btn-link-color-secondary-text;
+        text-decoration: none;
+
+        &:hover {
+            color: $btn-link-color-secondary-text;
+            background-color: $neutral-color-high-light;
+        }
+    }
+    &-outline {
+        border: 2px solid $btn-color-secondary-bg;
+        color:$btn-outline-color-secondary-text;
+        background: transparent;
+
+        &:hover {
+            color:$btn-outline-color-secondary-text;
+            border: 2px solid $btn-color-secondary-bg;
+            background-color: $neutral-color-high-light;
+        }
+
+    }
+}

@@ -5,6 +5,7 @@
 //= require ./bootstrap/dom/manipulator
 //= require ./bootstrap/util/config
 //= require ./bootstrap/base-component
+//= require ./bootstrap/util/swipe
 //= require ./bootstrap/dom/selector-engine
 //= require ./bootstrap/collapse
 //= require ./bootstrap/util/sanitizer
