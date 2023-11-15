@@ -106,4 +106,16 @@
             border-color: $brand-color-secondary-pure;
         }
     }
+
+    &.pill-well-being-secondary {
+        background-color: $well-being-color-secondary;
+        color: $neutral-color-high-pure;
+        border-color: $well-being-color-secondary;
+
+        &-outline {
+            background-color: transparent;
+            color: $well-being-color-secondary;
+            border-color: $well-being-color-secondary;
+        }
+    }
 }
