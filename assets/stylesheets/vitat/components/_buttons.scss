@@ -9,6 +9,11 @@
     line-height: $line-height-sm;
     cursor:pointer;
 
+    // MOBILE
+    @media (max-width: 1200px) {
+        font-size: $font-size-xxs;
+    }
+
     &:hover {
         border: 1px solid transparent;
     }
