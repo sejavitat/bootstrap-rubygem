@@ -19,6 +19,12 @@
         @media (max-width: 1200px) {
             height: 48px;
           }
+          
+          &:focus {
+            border-color: #dff19c;
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgba(191, 227, 56, 0.25);
+          }
     }
 
     span {
