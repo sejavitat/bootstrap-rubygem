@@ -14,7 +14,7 @@
         font-size: $font-size-xxs;
     }
 
-    &:hover {
+    &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
         border: 1px solid transparent;
     }
     &:focus {
@@ -41,20 +41,26 @@
     color:$btn-color-primary-text;
     background:$btn-color-primary-bg;
 
-    &:hover {
+    &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
         color:$btn-color-primary-text;
         background:$btn-color-primary-bg;
         filter: brightness(80%);
         transition: $transition-base;
+    }
+    &:focus {
+        box-shadow: 0 0 5px 0 $btn-color-primary-bg;
     }
     &-link {
         background: transparent;
         color: $brand-color-primary-pure;
         text-decoration: none;
 
-        &:hover {
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
             color: $brand-color-primary-pure;
             background-color: $neutral-color-high-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $brand-color-primary-pure;
         }
     }
     &-outline {
@@ -62,10 +68,13 @@
         color:$btn-outline-color-primary-text;
         background: transparent;
 
-        &:hover {
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
             color:$btn-outline-color-primary-text;
             border: 2px solid $btn-color-primary-bg;
             background-color: $brand-color-primary-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $btn-color-primary-bg;
         }
 
     }
@@ -76,20 +85,26 @@
     color:$btn-color-secondary-text;
     background:$btn-color-secondary-bg;
 
-    &:hover {
+    &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
         color:$btn-color-secondary-text;
         background:$btn-color-secondary-bg;
         filter: brightness(80%);
         transition: $transition-base;
+    }
+    &:focus {
+        box-shadow: 0 0 5px 0 $btn-color-secondary-bg;
     }
     &-link {
         background: transparent;
         color: $btn-link-color-secondary-text;
         text-decoration: none;
 
-        &:hover {
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
             color: $btn-link-color-secondary-text;
             background-color: $neutral-color-high-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $btn-link-color-secondary-text;
         }
     }
     &-outline {
@@ -97,10 +112,13 @@
         color:$btn-outline-color-secondary-text;
         background: transparent;
 
-        &:hover {
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
             color:$btn-outline-color-secondary-text;
             border: 2px solid $btn-color-secondary-bg;
             background-color: $neutral-color-high-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $btn-color-secondary-bg;
         }
 
     }
