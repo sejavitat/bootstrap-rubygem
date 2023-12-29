@@ -9,6 +9,7 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname+"/public"));
 app.use(express.static(__dirname+"/partials"));
+app.use(express.static(__dirname+"/node_modules"));
 
 // use res.render to load up an ejs view file
 
