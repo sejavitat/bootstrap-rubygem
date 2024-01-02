@@ -27,4 +27,4 @@
 //= require ./bootstrap/tab
 //= require ./bootstrap/carousel
 //= require ./bootstrap-global-this-undefine
-//= require ./vitat.js
+//= require ./vitat
