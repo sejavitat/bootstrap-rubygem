@@ -1,5 +1,3 @@
-$( document ).ready(function() {
-
     // STARTING TOOLTIP 
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -23,5 +21,3 @@ $( document ).ready(function() {
         }
     } );
     $('div.dataTables_length select').addClass( "form-control" );
-
-});
