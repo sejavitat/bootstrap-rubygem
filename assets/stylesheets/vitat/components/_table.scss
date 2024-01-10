@@ -354,20 +354,12 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
             }
         }
     }
-
-    &.table-striped {
-        tbody {
-            tr {
-                &:nth-of-type(odd) {
-                    * {
-                        background-color: rgba(240, 241, 245, 0.3);
-                        box-shadow: none;
-                    }
-                }
-            }
-        }
-    }
 }
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: rgba(240, 241, 245, 0.3);
+    box-shadow: none;
+}
+
 
 .table tbody > tr > td,
 .table thead > tr > th {
