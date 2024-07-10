@@ -136,3 +136,7 @@ In the application Sass file, replace `@import 'bootstrap'` with:
 [bootstrap-variables.scss]: https://github.com/twbs/bootstrap-rubygem/blob/master/templates/project/_bootstrap-variables.scss
 [autoprefixer]: https://github.com/ai/autoprefixer
 [popper.js]: https://popper.js.org
+
+
+Iniciar projeto: node index.js
+Compilar SCSS: gulp default

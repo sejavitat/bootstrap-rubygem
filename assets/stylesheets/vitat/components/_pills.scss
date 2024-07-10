@@ -20,6 +20,10 @@
         padding: $spacing-xxxs;
     }
 
+    img {
+        height: 12px;
+    }
+
     &.pill-success {
         background-color: $feedback-color-success-medium;
         color: $feedback-color-success-light;
@@ -117,5 +121,31 @@
             color: $well-being-color-secondary;
             border-color: $well-being-color-secondary;
         }
+    }
+
+
+    &.pill-movimento {
+        background-color:rgba(240,130,35,0.1);
+        color: #B55B0C
+    }
+    
+    &.pill-alimentacao {
+        background-color: rgba(191,227,56,0.1);
+        color: #8FAE19
+    }
+
+    &.pill-habitos {
+        background-color: rgba(0,118,214,0.1);
+        color: #0076d6
+    }
+
+    &.pill-sono {
+        background-color: rgba(165,143,196,0.1);
+        color: #5A3B94
+    }
+
+    &.pill-equilibrio {
+        background-color: rgba(245,160,197,0.1);
+        color: #D0434F
     }
 }
