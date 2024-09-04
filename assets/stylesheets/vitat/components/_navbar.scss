@@ -9,6 +9,15 @@
         width: 100%;
 
         .navbar-aside_item {
+            border-left: 4px solid transparent;
+
+            &:hover, &.active {
+                background-color: #FBFBFB;
+                color: $brand-color-secondary-pure;
+                font-weight: $font-weight-medium;
+                border-left: 4px solid $brand-color-secondary-pure;
+
+            }
 
             a {
                 padding: $spacing-nano $spacing-xxs;
@@ -18,13 +27,6 @@
 
                 i {
                     margin-right: $spacing-quarck;
-                }
-
-                &:hover, &.active {
-                    color: $brand-color-secondary-pure;
-                    font-weight: $font-weight-medium;
-                    border-right: 3px solid $brand-color-secondary-pure;
-
                 }
             }
         }
