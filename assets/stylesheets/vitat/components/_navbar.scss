@@ -14,7 +14,6 @@
             &:hover, &.active {
                 background-color: #FBFBFB;
                 color: $brand-color-secondary-pure;
-                //font-weight: $font-weight-medium;
                 border-left: 4px solid $brand-color-secondary-pure;
 
                 a {
@@ -58,6 +57,7 @@
                     li {
                         a {
                             padding-left: 0;
+                            padding-top: 0;
                             color: $neutral-color-low-light;
                             font-weight: 400;
                         }
