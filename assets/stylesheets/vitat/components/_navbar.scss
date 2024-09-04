@@ -14,19 +14,59 @@
             &:hover, &.active {
                 background-color: #FBFBFB;
                 color: $brand-color-secondary-pure;
-                font-weight: $font-weight-medium;
+                //font-weight: $font-weight-medium;
                 border-left: 4px solid $brand-color-secondary-pure;
+
+                a {
+                    font-weight: $font-weight-medium;
+                }
+                ul.submenu-items {
+                    li.active {
+                        a {
+                            font-weight: $font-weight-medium;
+                        }
+                    }
+                }
 
             }
 
             a {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
                 padding: $spacing-nano $spacing-xxs;
                 text-decoration: none;
-                display: block;
                 color: $neutral-color-low-pure;
 
                 i {
                     margin-right: $spacing-quarck;
+                }
+            }
+
+            &.submenu {
+                a > i {
+                    font-size: 12px;
+                }
+
+                ul.submenu-items {
+                    display: none;
+                    font-size: 14px;
+                    list-style: disc;
+                    padding: 0 0 0 50px;
+
+
+                    li {
+                        a {
+                            padding-left: 0;
+                            color: $neutral-color-low-light;
+                            font-weight: 400;
+                        }
+
+                        &:hover a, &.active a {
+                            color: var(--neutral-color-low-pure);
+                        }
+                    }
+
                 }
             }
         }

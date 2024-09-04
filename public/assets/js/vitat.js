@@ -24,4 +24,20 @@ $(document).ready(function() {
     } );
     $('div.dataTables_length select').addClass( "form-control" );
 
+
+    //SUBMENU
+    $(document).ready(function(){
+        // Se o submenu estiver ativo, mostra os itens e altera o ícone para "chevron-up"
+        if ($('.submenu').hasClass('active')) {
+            $('.submenu-items').show();
+            $('.submenu-toggle i.bi-chevron-down').removeClass('bi-chevron-down').addClass('bi-chevron-up');
+        }
+
+        // Alterna a exibição do submenu e o ícone ao clicar
+        $('.submenu-toggle').on('click', function() {
+            $(this).next('.submenu-items').slideToggle();
+            $(this).find('i.bi').toggleClass('bi-chevron-down bi-chevron-up');
+        });
+    });
+
 });

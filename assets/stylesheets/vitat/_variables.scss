@@ -81,9 +81,10 @@ $spacing-huge: 160px;
 $spacing-giant: 200px;
 
 //FONT WEIGHT
-$font-weight-bold: 700;
-$font-weight-medium: 600;
-$font-weight-regular: 400;
+$font-weight-regular:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
 
 // FONT FAMILY
 $font-family-highlight: "Livvic", sans-serif;
