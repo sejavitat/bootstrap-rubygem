@@ -68,7 +68,7 @@
 @import "components/colors";
 
 // CUSTOM COLORS
-// @import "custom-colors";
+ @import "custom-colors";
 
 
 //SCSS DO PROJETO
@@ -97,4 +97,23 @@ body,html {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $spacing-xxs;
+
+  h3 {
+    margin: 0;
+  }
+
+  i {
+    font-size: 16px;
+  }
+  svg {
+    width: 16px;
+    height: 16px;
+  }
 }

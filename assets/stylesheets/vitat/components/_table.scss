@@ -401,3 +401,42 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
     }
 
 }
+
+
+
+
+//BUTTONS TABLE
+.table-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 4px;
+    //min-width: 110px;
+    height: 24px;
+    cursor: pointer;
+    padding-left: 10px;
+
+    .btn-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .table-btns-links {
+        display:none;
+    }
+    &:hover {
+        .table-btns-links {
+            display: flex;
+            gap:8px;
+            animation: scaleHorizontalRight 0.2s ease 0s 1 normal forwards;
+            cursor: pointer;
+            position: absolute;
+            background-color: #ffffff;
+            right: 50px;
+
+            svg {
+                width: 12px;
+            }
+        }
+    }
+}
