@@ -3,6 +3,13 @@
     padding: $spacing-xxxs;
     margin: $spacing-nano;
     border: none;
+
+    .card-title {
+        border-bottom: 1px solid $neutral-color-high-light;
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+        color: $neutral-color-low-pure;
+    }
 }
 
 
