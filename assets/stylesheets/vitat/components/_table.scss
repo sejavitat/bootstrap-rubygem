@@ -405,7 +405,7 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
 
 
 
-//BUTTONS TABLE
+//MENU BUTTONS TABLE
 .table-btns {
     display: flex;
     flex-direction: row;
@@ -432,10 +432,21 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child{
             cursor: pointer;
             position: absolute;
             background-color: #ffffff;
-            right: 50px;
+            right: 30px;
 
             svg {
                 width: 12px;
+            }
+        }
+    }
+}
+
+//MENU BUTTONS TABLE - COL FIXED
+.dtfc-fixed-end {
+    .table-btns {
+        &:hover {
+            .table-btns-links {
+                right: 30px;
             }
         }
     }

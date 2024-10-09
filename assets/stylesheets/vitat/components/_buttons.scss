@@ -2,7 +2,7 @@
     font-family:$font-family-base;
     border-radius: $border-radius-pill;
     border: 1px solid transparent;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-semibold;
     padding: $spacing-xxxs $spacing-xs;
     font-size: $font-size-xs;
     text-align: center;
@@ -119,6 +119,50 @@
         }
         &:focus {
             box-shadow: 0 0 5px 0 $btn-color-secondary-bg;
+        }
+
+    }
+}
+
+.btn-low-pure {
+    @extend .btn;
+    color:$white;
+    background:$neutral-color-low-pure;
+
+    &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
+        color:$white;
+        background:$neutral-color-low-pure;
+        filter: brightness(80%);
+        transition: $transition-base;
+    }
+    &:focus {
+        box-shadow: 0 0 5px 0 $neutral-color-low-pure;
+    }
+    &-link {
+        background: transparent;
+        color: $btn-link-color-secondary-text;
+        text-decoration: none;
+
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
+            color: $btn-link-color-secondary-text;
+            background-color: $neutral-color-high-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $btn-link-color-secondary-text;
+        }
+    }
+    &-outline {
+        border: 2px solid $neutral-color-low-pure;
+        color:$neutral-color-low-pure;
+        background: transparent;
+
+        &:hover, &:active, &:first-child:active, &:not(.btn-check)+.btn:active, &:focus-visible {
+            color:$neutral-color-low-pure;
+            border: 2px solid $neutral-color-low-pure;
+            background-color: $neutral-color-high-light;
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 $neutral-color-low-pure;
         }
 
     }
