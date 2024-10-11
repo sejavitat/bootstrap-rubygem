@@ -28,6 +28,11 @@
     }
 }
 
+.btn-xs {
+    font-size: $font-size-xxxs;
+    padding: $spacing-nano $spacing-xxxs;
+}
+
 .btn-sm {
     padding: $spacing-nano $spacing-xs;
 }
