@@ -87,23 +87,24 @@ $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 
 // FONT FAMILY
-$font-family-highlight: "Livvic", sans-serif;
-$font-family-base: "Livvic", sans-serif;
+$font-family-highlight: "RDModern", sans-serif;
+$font-family-base: "RDModern", sans-serif;
 
 
 
 // COLORS
 :root {
-  --brand-color-primary-light: #ecf7c5;
-  --brand-color-primary-pure: #bfe338;
-  --brand-color-primary-pure: #bfe338;
+  --brand-color-primary-light: #EBF9EE;
+  --brand-color-primary-pure: #4CA15D;
   --brand-color-primary-medium: #8fae19;
   --brand-color-primary-dark: #54670f;
 
   --brand-color-secondary-light: #ede5f7;
-  --brand-color-secondary-pure: #5a3b94;
+  --brand-color-secondary-pure: #A89B91;
   --brand-color-secondary-medium: #4e2f8a;
   --brand-color-secondary-dark: #261e4d;
+
+  --brand-color-tertiary-pure: #0A2F2A;
 
   --highlight-color-light: #fad9bc;
   --highlight-color-pure:  #f08223;
@@ -142,11 +143,11 @@ $font-family-base: "Livvic", sans-serif;
   --feedback-color-success-dark: #002500;
 
   // CUSTOM COLOR
-  --btn-color-primary-text: var(--neutral-color-low-pure);
+  --btn-color-primary-text: var(--neutral-color-high-pure);
   --btn-color-primary-bg: var(--brand-color-primary-pure);
 
-  --btn-color-secondary-text: var(--brand-color-primary-pure);
-  --btn-color-secondary-bg: var(--neutral-color-low-pure);
+  --btn-color-secondary-text: var(--neutral-color-high-pure);
+  --btn-color-secondary-bg: var(--brand-color-secondary-pure);
 
   --btn-outline-color-primary-text: var(--neutral-color-low-pure);
   --btn-outline-color-secondary-text: var(--neutral-color-low-pure);
