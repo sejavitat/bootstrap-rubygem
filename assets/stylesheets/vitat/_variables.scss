@@ -95,12 +95,12 @@ $font-family-base: "RDModern", sans-serif;
 // COLORS
 :root {
   --brand-color-primary-light: #EBF9EE;
-  --brand-color-primary-pure: #4CA15D;
+  --brand-color-primary-pure: #bfe338;
   --brand-color-primary-medium: #8fae19;
   --brand-color-primary-dark: #54670f;
 
   --brand-color-secondary-light: #ede5f7;
-  --brand-color-secondary-pure: #A89B91;
+  --brand-color-secondary-pure: #5a3b94;
   --brand-color-secondary-medium: #4e2f8a;
   --brand-color-secondary-dark: #261e4d;
 
@@ -143,11 +143,11 @@ $font-family-base: "RDModern", sans-serif;
   --feedback-color-success-dark: #002500;
 
   // CUSTOM COLOR
-  --btn-color-primary-text: var(--neutral-color-high-pure);
+  --btn-color-primary-text: var(--neutral-color-low-pure);
   --btn-color-primary-bg: var(--brand-color-primary-pure);
 
-  --btn-color-secondary-text: var(--neutral-color-high-pure);
-  --btn-color-secondary-bg: var(--brand-color-secondary-pure);
+  --btn-color-secondary-text: var(--brand-color-primary-pure);
+  --btn-color-secondary-bg: var(--neutral-color-low-pure);
 
   --btn-outline-color-primary-text: var(--neutral-color-low-pure);
   --btn-outline-color-secondary-text: var(--neutral-color-low-pure);
