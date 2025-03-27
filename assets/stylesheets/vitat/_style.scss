@@ -1,25 +1,25 @@
 //FONT RDModern
 @font-face {
   font-family: 'RDModern';
-  src: url('/font/RDModern/RDModern-Regular.ttf') format('truetype');
+  src: local('RDModern-Regular');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'RDModern';
-  src: url('/font/RDModern/RDModern-Medium.ttf') format('truetype');
+  src: local('RDModern-Medium');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'RDModern';
-  src: url('/font/RDModern/RDModern-Semibold.ttf') format('truetype');
+  src: local('RDModern-Semibold');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'RDModern';
-  src: url('/font/RDModern/RDModern-Bold.ttf') format('truetype');
+  src: local('RDModern-Bold');
   font-weight: 700;
 }
 
